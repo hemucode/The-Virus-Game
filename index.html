@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="full-screen" content="yes"/>
+        <meta name="screen-orientation" content="portrait"/>
+		<script src="https://connect.facebook.net/en_US/fbinstant.6.3.js"></script>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<script defer src="game.js"></script>
+		
+		
+	</head>
+	<body id="gamebodyback" onmousedown="show_coords(event)">
+		<div id="startbody" class="content ">
+		<h1 class="page-heading">The virus</h1>
+					
+			<button class="startbtn" id="start">Play</button>
+			<button class="startbtn" onclick="FBChoose()" id="friends">Friends</button>
+			<button class="startbtn" id="soundid">Sound</button>
+			<button class="startbtn" id="helpid">Help</button>
+		</div>
+		<div class="helpclass hide" id="helpbody">
+			<div class="heelpback" id="backhelpstartgame">Back</div>
+			<img src="images/help.jpg" class="helpimg1" width="100%" height="100%">
+			<img src="images/h1.png" class="helpclassimg" width="100%" height="100%">
+			<img src="images/help2.jpg" class="helpclassimg" width="100%" height="100%">
+			<img src="images/help3.jpg" class="helpclassimg" width="100%" height="100%">
+			<img src="images/help4.jpg" class="helpclassimg"  width="100%" height="100%">
+			<img src="images/help5.jpg" class="helpclassimgend" width="100%" height="100%">
+		</div>
+        
+		<canvas class="gamebody hide" id="myCanvas"></canvas>
+		<div class="resres" id="resresid">
+			<div class="scoresss hide" id = "text"></div>
+			<div class="scoresss hide" id = "lvl"></div>
+
+		</div>
+		
+		<div class="restartbody hide" id="gameoverbodyis">
+			<h2 class="gameover">Game Over</h2>
+			<button class="restartbtn" id="restart">Restart</button>
+			<button class="restartbtn" onclick="shareClick()">Share</button>
+			<button class="restartbtn" id="backgame">Back</button>
+		</div>
+	   
+		
+		
+		
+
+	</body>
+
+</html>
