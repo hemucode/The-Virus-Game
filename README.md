@@ -1,6 +1,6 @@
 # The-Virus-Game
 This is my First Web Game. Let's Play ! . . .
-#https://codehemanta.github.io/The-Virus-Game/
+https://thegayen.github.io/The-Virus-Game/
 
 
 
